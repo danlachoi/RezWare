@@ -101,6 +101,51 @@ end
 -- Show simple Roblox notification:
 showNotify("Sample Title", "This is a sample message.", 5) -- duration in seconds
 
+-------------------------------------------------------
+--                     Actors                        --
+-------------------------------------------------------
+
+-- Creates actor
+create_actor("ActorName") -- if not enter name ("NewActor_" .. math.random(1, 1000))
+
+-- Save Actor
+save_actor(actor)
+
+- Get running actors
+get_running_actors() or get_running_actors(actorName)
+
+-- Run on actor
+run_on_actor(actor, callback)
+
+-------------------------------------------------------
+--                     Print Info                    --
+-------------------------------------------------------
+
+-- Does the same as printing, but instead it looks like that C information print.
+rez.print("hi")
+
+-- Does the same as Warning, but instead it looks like that C information warn.
+rez.warn("hi")
+
+-- Does the same as assert, but instead it looks like that C information assert.
+
+rez.assert(false, "hi") or rez.assert(true, "hi")
+
+-------------------------------------------------------
+--                    Other                          --
+-------------------------------------------------------
+
+-- Gets addres of func
+rez.get_address(func)
+
+-- Kicks localplayer
+rez.kickme(reason)
+
+-- Teleports to player
+teleportTo("Name or displayName") if name big teleportTo("doc") \ doctor2044
+
+-- Prints actual RezWare version
+print("rez.rezversion()")
 
 ```
 
