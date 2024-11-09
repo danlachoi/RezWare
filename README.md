@@ -19,7 +19,7 @@ https://discord.gg/rezware
 
 ## Custom Functions
 
-```lua
+```
 # getfps()
 
 -- For printing FPS once:
