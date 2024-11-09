@@ -75,7 +75,7 @@ print("Random Player:", getRandomPlayer() and getRandomPlayer().Name) -- (Displa
 -- Shows simple roblox notify
 showNotify("title", "message", duration)
 
-```
+```lua
 
 ### Preview
 
