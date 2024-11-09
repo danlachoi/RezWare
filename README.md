@@ -19,7 +19,7 @@ https://discord.gg/rezware
 
 ## Custom Functions
 
-```
+```lua
 # getfps()
 
 -- For printing FPS once:
@@ -75,7 +75,7 @@ print("Random Player:", getRandomPlayer() and getRandomPlayer().Name) -- (Displa
 -- Shows simple roblox notify
 showNotify("title", "message", duration)
 
-```lua
+```
 
 ### Preview
 
