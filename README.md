@@ -19,6 +19,7 @@ https://discord.gg/rezware
 
 ## Custom Functions
 
+```
 -------------------------------------------------------
 --                FPS and PING Functions              --
 -------------------------------------------------------
@@ -100,6 +101,8 @@ end
 -- Show simple Roblox notification:
 showNotify("Sample Title", "This is a sample message.", 5) -- duration in seconds
 
+
+```
 
 ### Preview
 
