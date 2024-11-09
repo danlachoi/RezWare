@@ -19,38 +19,45 @@ https://discord.gg/rezware
 
 ## Custom Functions
 
-```
-# getfps()
+-------------------------------------------------------
+--                FPS and PING Functions              --
+-------------------------------------------------------
 
--- For printing FPS once:
+-- getfps()
+
+-- Print FPS once:
 getfps(function(fps, isContinuous)
-    print("FPS: " .. fps)
+    print(string.format("FPS: %d", fps))
 end, false)
 
--- For continuous FPS updates:
+-- Continuous FPS updates:
 getfps(function(fps, isContinuous)
-    print("FPS: " .. fps)  
+    print(string.format("FPS: %d", fps))  
 end, true)
 
---------------/-\--------------
+-------------------------------------------------------
+--                PING Functions                     --
+-------------------------------------------------------
 
-# getping()
+-- getping()
 
--- For printing PING once:
-getfps(function(ping, isContinuous)
-    print("PING: " .. ping)
+-- Print PING once:
+getping(function(ping, isContinuous)
+    print(string.format("PING: %d ms", ping))
 end, false)
 
--- For continuous FPS updates:
-getfps(function(ping, isContinuous)
-    print("PING: " .. ping)  
+-- Continuous PING updates:
+getping(function(ping, isContinuous)
+    print(string.format("PING: %d ms", ping))  
 end, true)
 
---------------/utlls\--------------
+-------------------------------------------------------
+--                Utility Functions                 --
+-------------------------------------------------------
 
-# getPlayerInfo()
+-- getPlayerInfo()
 
-local player = game.Players.LocalPlayer -- Get the local player (you can change this to any player)
+local player = game.Players.LocalPlayer -- Local player (or change this to any other player)
 
 local playerInfo = getPlayerInfo(player)
 
@@ -58,24 +65,41 @@ if playerInfo then
     print("Player Name: " .. playerInfo.name)
     print("Player Health: " .. playerInfo.health)
 else
-    print("Player info could not be retrieved.")
+    print("Error: Player info could not be retrieved.")
 end
 
-# getGameInfo()
+-------------------------------------------------------
+--                Game Info Function                --
+-------------------------------------------------------
+
+-- getGameInfo()
 
 local gameInfo = getGameInfo()
-print("Game Info:", gameInfo.name, "Place ID:", gameInfo.placeId, "Job ID:", gameInfo.jobId, "Players:", gameInfo.players)
+print(string.format("Game Info:\nName: %s\nPlace ID: %d\nJob ID: %d\nPlayers: %d",
+    gameInfo.name, gameInfo.placeId, gameInfo.jobId, gameInfo.players))
 
-# getRandomPlayer()
+-------------------------------------------------------
+--                Random Player Function            --
+-------------------------------------------------------
 
-print("Random Player:", getRandomPlayer() and getRandomPlayer().Name) -- (DisplayName or Name)
+-- getRandomPlayer()
 
-# showNotify()
+local randomPlayer = getRandomPlayer()
+if randomPlayer then
+    print(string.format("Random Player: %s", randomPlayer.Name))  -- DisplayName or Name
+else
+    print("No random player found.")
+end
 
--- Shows simple roblox notify
-showNotify("title", "message", duration)
+-------------------------------------------------------
+--                Notification Function             --
+-------------------------------------------------------
 
-```
+-- showNotify()
+
+-- Show simple Roblox notification:
+showNotify("Sample Title", "This is a sample message.", 5) -- duration in seconds
+
 
 ### Preview
 
