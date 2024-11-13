@@ -121,13 +121,13 @@ run_on_actor(actor, callback)
 --                     Print Info                    --
 -------------------------------------------------------
 
--- Does the same as printing, but instead it looks like that C information print.
+-- prints 
 rez.print("hi")
 
--- Does the same as Warning, but instead it looks like that C information warn.
+-- warn
 rez.warn("hi")
 
--- Does the same as assert, but instead it looks like that C information assert.
+-- assert prints
 
 rez.assert(false, "hi") or rez.assert(true, "hi")
 
