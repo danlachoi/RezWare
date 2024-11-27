@@ -34,10 +34,12 @@ An executor made for the web version | RobloxPlayer of Roblox.
 - Glosary: Assisted with initialization.
 - h0ndra: Helped make sUnc, Unc
 
-This project is based on the Xeno Original Repository by Xeno.
-Check it out here: [GitHub - Xeno Repo](https://github.com/Riz-ve/Xeno/)
-
 ## 💡 Note
 
 - .Rizve for the injection system.
 - Glosary for helping with initialization, Fixing bugs.
+
+------------------------------------------------------------
+
+This project is based on the Xeno Original Repository by Xeno.
+Check it out here: [GitHub - Xeno Repo](https://github.com/Riz-ve/Xeno/)
