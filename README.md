@@ -24,7 +24,7 @@ An executor made for the web version | RobloxPlayer of Roblox.
 
 RezWare made on languages: 
 
-<a><img src="[https://svgl-badge.vercel.app/api/Software/Discord?theme=dark](https://svgl-badge.vercel.app/api/Language/C%2B%2B?theme=light)"></a>
+<a><img src="[https://svgl-badge.vercel.app/api/Software/Discord?theme=dark](https://svgl-badge.vercel.app/api/Language/C%2B%2B?theme=dark)"></a>
 
 
 
