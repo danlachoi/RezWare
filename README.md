@@ -1,6 +1,9 @@
 > [!WARNING]
-> You are most likely going to be banned since this is detected by Byfron. Use an alt account while running RezWare. Use the repository to understand what's happening and how it works.
-> I am not liable for any bans
+> RezWare may be detected by Byfron, which increases the likelihood of account bans.
+It is highly recommended to use an alt account when running RezWare.
+Please review the repository for detailed insights into how it operates.
+Disclaimer: I am not liable for any bans.
+
 
 
 # RezWare
