@@ -7,8 +7,8 @@
 An executor made for the web version | RobloxPlayer of Roblox.
 
 ### Socials
-https://discord.gg/rezware
-
+  <a href="https://discord.gg/RezWare"><img src="https://svgl-badge.vercel.app/api/Software/Discord?theme=dark"></a>
+  
 ## Features
 - Fast execution
 - Multi-instance compatibility
@@ -20,7 +20,7 @@ https://discord.gg/rezware
 ### Preview
 
 <p>This is the UI of the version v1.7c:</p>
-<img src="UI.png" alt="Preview" width="600" style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.3);" />
+<img src="UIV1.7.png" alt="Preview" width="600" style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.3);" />
 <p>The Current UNC is <span style="color: green;">~88%</span></p>
 <img src="UNC.png" alt="Preview" width="600" style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.3);" />
 
