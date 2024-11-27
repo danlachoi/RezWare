@@ -20,6 +20,14 @@ An executor made for the web version | RobloxPlayer of Roblox.
 - Optimized Performance: No in-game lag or high CPU usage.
 
 
+## 🔗 Languages
+
+RezWare made on languages: 
+
+<a><img src="[https://svgl-badge.vercel.app/api/Software/Discord?theme=dark](https://svgl-badge.vercel.app/api/Language/C%2B%2B?theme=light)"></a>
+
+
+
 ### 📸 Preview
 
 <p>This is the UI of the version (v1.7c):</p>
