@@ -24,7 +24,7 @@ An executor made for the web version | RobloxPlayer of Roblox.
 <p>This is the UI of the version (v1.7c):</p>
 <img src="UIV1.7.png" alt="Preview" width="600" style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.3);" />
 <p>The Current UNC is <span style="color: green;">~88%</span></p>
-<img src="UNC.png" alt="Preview" width="600" style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.3);" />
+<img src="UNCNEW.png" alt="Preview" width="600" style="box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.3);" />
 
 ## 📜 Credits
 
